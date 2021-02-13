@@ -1,0 +1,27 @@
+.wrapper {
+	transition: 0.3s;
+}
+
+.label {
+	color: var(--color);
+	font-size: 20px;
+}
+
+.loginButton {
+	transition: 0.2s;
+}
+
+.loginButton:hover {
+	opacity: 0.8;
+	transition: 0.2s
+}
+
+.forgetPassword {
+	display: inline-block;
+	margin-left: 128px;
+}
+
+.forgetPassword:hover {
+	opacity: 0.9;
+	text-decoration: none;
+}

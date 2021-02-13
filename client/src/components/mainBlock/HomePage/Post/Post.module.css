@@ -1,0 +1,53 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.container {
+	width: 630px;
+	color: var(--color);
+	padding: 24px;
+	border-radius: 20px;
+	border: 1px solid var(--additional);
+}
+
+.upper_left {
+	display: flex;
+}
+
+.upper {
+	padding-bottom: 10px;
+}
+
+.main {
+	word-wrap: break-word;
+	padding: 10px 0;
+	border-top: 1px solid var(--additional);
+	border-bottom: 1px solid var(--additional)
+}
+
+.lower {
+	padding-top: 10px;
+}
+
+.like {
+	width: 22px;
+}
+
+.like:hover {
+	cursor: pointer
+}
+
+.followButton {
+	transition: 0.2s;
+	position: relative;
+	bottom: 4px;
+	left: 20px;
+	border-radius: 20px
+}
+
+.followButton:hover {
+	opacity: 0.8;
+	transition: 0.2s
+}

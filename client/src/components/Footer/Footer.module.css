@@ -1,0 +1,27 @@
+.wrapper {
+	background-color: var(--firstBg);
+	color: var(--color);
+	font-size: 16px;
+	width: 100vw;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.upper {
+	padding: 20px 0px;
+	font-size: 20px;
+	border-top: 1px dashed var(--additional);
+}
+
+.lower {
+	width: 50%;
+	margin: 0 auto;
+	padding: 14px 0px 20px;
+	border-top: 1px dashed var(--additional);
+}

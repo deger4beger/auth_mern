@@ -1,0 +1,16 @@
+.wrapper {
+	transition: 0.3s;
+}
+
+.label {
+	color: var(--color);
+	font-size: 20px;
+}
+
+.loginButton {
+	transition: 0.2s;
+}
+
+.loginButton:hover {
+	opacity: 0.8;
+}

@@ -1,0 +1,81 @@
+/*Обнуление*/
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+/*html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}*/
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+/* Set core body defaults */
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar {
+    background-color: var(--firstBg);
+    width: 9px;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: var(--additional);
+    height: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+
+/** {
+    color: var(--color);
+    background-color: var(--firstBg);
+    font-family: 'Anonymous Pro', monospace;
+}*/
+
+.wrapper {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--firstBg);
+}
+
+.mainBlock {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 80px;
+}

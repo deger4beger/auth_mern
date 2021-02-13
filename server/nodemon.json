@@ -1,0 +1,12 @@
+{
+	"env": {
+		"MONGO_ATLAS_PW": "broplen99",
+		"MONGO_ATLAS_DBN": "authdb",
+		"JWT_KEY": "gghpl435grevn47mb555433v",
+		"JWT_ACTIVATE_KEY": "activatecjcjjfeokerp[g123254erg",
+		"JWT_SIGNIN_KEY": "rthiejviojeirojio5ji5j7ou65hj7hu3iertg5",
+		"MAILGUN_API_KEY": "8d9a63a3d61f26bd25db6932e1a04ca0-e438c741-6998e889",
+		"CLIENT_URL": "htttp://localhost:3000",
+		"JWT_RESET_PASSWORD_KEY": "ergop34po5kom4k3lonm5j34kn5"
+	}
+}

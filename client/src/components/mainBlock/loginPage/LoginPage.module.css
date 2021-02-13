@@ -1,0 +1,45 @@
+.wrapper {
+	margin-top: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 600px;
+}
+
+.top {
+	display: flex;
+	margin-left: 110px;
+}
+
+.topText {
+	padding-top: 54px;
+	font-size: 40px;
+	border-left: 0.5px dashed var(--color);
+	padding-left: 250px;
+	height: 388px;
+	text-align: center;
+}
+
+.bottom {
+	font-size: 30px;
+	margin-top: 120px;
+	text-align: center;
+}
+
+.newAccButton {
+	display: inline-block;
+	padding: 0px 40px 7px 40px;
+	margin-left: 12px;
+	border-radius: 10px;
+	border: 1px dashed var(--main);
+	transition: 0.2s;
+}
+
+.newAccButton:hover {
+	cursor: pointer;
+	background-color: var(--secBg);
+}
+
+.left {
+	width: 520px;
+}
